@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #F5F7FA;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #0F2A43 0%, #1B4B66 100%);
+  padding: 18px 32px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.navbar-brand-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.navbar-subtitle {
+  font-size: 13px;
+  color: #B7D3DF;
+  font-weight: 500;
+}
+
+.app-body {
+  padding: 24px 32px 48px 32px;
+}
+
+.custom-tabs .tab {
+  font-weight: 600;
+}
+
+.tab-content-wrap {
+  margin-top: 20px;
+}
+
+.kpi-card {
+  border: none;
+  border-radius: 10px;
+  border-top: 4px solid #2EC4B6;
+}
+
+.kpi-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6B7C93;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.kpi-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.kpi-subtitle {
+  font-size: 12px;
+  color: #6B7C93;
+  margin-top: 4px;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #E7ECF1;
+}
+
+h5, h4, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #0F2A43;
+}
